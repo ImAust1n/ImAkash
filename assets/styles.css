@@ -114,3 +114,11 @@ footer{
     flex-direction: row;
     gap: 20px;
 }
+
+.btn:hover {
+    background-color: #FF8080;
+}
+
+.link:hover {
+    color: aliceblue;
+}
