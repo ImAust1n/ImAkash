@@ -3,7 +3,7 @@ body {
 }
 
 .top-container {
-    background-image: url('../assets/images/bg.jpg');
+    background-image: url('./images/bg.jpg');
     background-color: #FF8080;
     position: relative;
     height: 800px;
