@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+}
+
+.top-container {
+    background-image: url('./assets/bg.jpg');
+    position: relative;
+    height: 800px;
+}
+
+.name {
+    padding-top: 300px;
+    font-size: 96px;
+    font-family: "Sacramento", cursive;
+    color: white;
+}
+
+.profession {
+    padding-top: 30px;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.photu {
+    padding-top: 50px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.heading {
+    color: #FF8080;
+    font-family: sans-serif;
+    font-size: 48px;
+}
+
+.about-me {
+    font-size: 18px;
+    font-family: serif;
+    text-align: center;
+}
+
+.horizontal-break {
+    color: lightgray;
+    font-size: 100px;
+    padding-bottom: 100px;
+}
+
+.skill-photo {
+    width: 250px;
+    padding-right: 50px;
+}
+
+.alignment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body {
+    width: 450px;
+}
+
+.iso-skill {
+    display: flex;
+    padding: 45px;
+}
+
+h2 {
+    padding-top: 30px;
+    color: #FF6868;
+}
+
+.contact-me > p {
+    padding: 10px;
+}
+
+.contact-me > h2 {
+    padding: 10px;
+}
+
+.btn {
+    background-color: #FF6868;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
+footer{
+    display: block;
+    background-color: #FF8080;
+    height: 200px;
+    justify-content: space-evenly;
+}
+
+.link {
+    padding-top: 40px;
+    color: #435585;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.copyright {
+    color: #ffffff;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
