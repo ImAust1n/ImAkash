@@ -3,7 +3,7 @@ body {
 }
 
 .top-container {
-    background-image: url('./assets/bg.jpg');
+    background-image: url('./assets/images/bg.jpg');
     position: relative;
     height: 800px;
 }
