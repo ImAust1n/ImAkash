@@ -122,3 +122,100 @@ footer{
 .link:hover {
     color: aliceblue;
 }
+
+@media (max-width: 600px) {
+    .name {
+        text-align: center;
+        padding-top: 200px;
+        font-size: 59px;
+    }
+
+    .top-container {
+        height: 600px;
+    }
+
+    .profession {
+        padding-top: 30px;
+        font-size: 30px;
+    }
+
+    .photu {
+        padding-top: 50px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    .heading {
+        color: #FF8080;
+        font-family: sans-serif;
+        font-size: 30px;
+    }
+    
+    .about-me {
+        font-size: 14px;
+        width: 80%;
+    }
+
+    .horizontal-break {
+        color: lightgray;
+        font-size: 60px;
+        padding-bottom: 10px;
+    }
+    
+    .skill-photo {
+        height: 150px;
+        padding: 0;
+    }
+    
+    .alignment {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .body {
+        width: 100%;
+    }
+    
+    .iso-skill {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    h2 {
+        padding-top: 10px;
+        color: #FF6868;
+        text-align: center;
+    }
+    
+    .btn {
+        font-size: 15px;
+    }
+    
+    .link {
+        font-size: 20px;
+    }
+    
+    .copyright {
+        font-size: 15px;
+    }
+
+    .bottom-container {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .contact-me > p {
+        padding: 0px;
+        text-align: center;
+    }
+    
+    .contact-me > h2 {
+        padding: 0px;
+    }
+}
